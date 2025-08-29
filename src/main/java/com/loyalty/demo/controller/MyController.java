@@ -11,6 +11,10 @@ public class MyController
 	@GetMapping("/req1")
 	public String getMsg() 
 	{
-		return "welcome Sathvik";
+		return "welcome Sathvik Hero";
+	}
+	@GetMapping("/req2")
+	public String getMsg1() {
+		return "Hello";
 	}
 }
